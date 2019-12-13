@@ -558,7 +558,7 @@ function getParameterByName(name) {
 
 function relatedUrl(locationData) {
 
-    return "https://shipgamesalvo.herokuapp.com/api/game_view/" + getParameterByName(locationData);//https://shipgamesalvo.herokuapp.com
+    return "https://battleshipreborn.herokuapp.com/api/game_view/" + getParameterByName(locationData);//https://shipgamesalvo.herokuapp.com
 }
 
 /*creacion del grid*/

@@ -1,5 +1,5 @@
 
-$.getJSON("https://shipgamesalvo.herokuapp.com/api/games")//https://shipgamesalvo.herokuapp.com
+$.getJSON("https://battleshipreborn.herokuapp.com/api/games")//https://shipgamesalvo.herokuapp.com
     .done(function(json) {
         var data = json;
         console.log(data);
